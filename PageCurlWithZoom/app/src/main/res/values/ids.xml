@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item type="id" name="scrollView" />
+    <item type="id" name="page1_bg" />
+    <item type="id" name="page2_bg" />
+
+</resources>
