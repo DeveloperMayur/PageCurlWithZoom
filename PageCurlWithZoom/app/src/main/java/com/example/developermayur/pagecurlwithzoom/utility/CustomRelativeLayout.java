@@ -24,12 +24,8 @@ public abstract class CustomRelativeLayout extends RelativeLayout {
     protected void onLayout(boolean changed, int l, int t, int r, int b) {
         super.onLayout(changed, l, t, r, b);
         try {
-
-            System.out.println("******CustomRelativeLayout onLayout called");
-
             getPageContent();
         } catch (Exception e) {
-            // bug
             e.printStackTrace();
         }
     }

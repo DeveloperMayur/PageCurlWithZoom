@@ -24,7 +24,6 @@ public class BookView extends View {
 	class FlippingHandler extends Handler {
 		@Override
 		public void handleMessage(Message msg) {
-			Log.i("Thong bao: ", "Clock Handler is still running");
 			BookView.this.flip();
 		}
 
